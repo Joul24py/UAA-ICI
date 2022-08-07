@@ -4,6 +4,8 @@
 
 The course was given by the Professor Miguel Ángel Meza de Luna.
 
+The course objective was to learn how to elaborate algorithms and have an approach to pseudocode.
+
 The exercises were made in PSeInt.
 
 Some exercises were solved in company of Jonathan David Pardo Tinoco, like the exercise 1 from the august 6 exercises.
