@@ -4,4 +4,6 @@
 
 The course was given by the Professor Rosalinda Avendaño López.
 
+The course objective was to learn the basics of programming, learning topics as input and output, conditionals or loops; all of this with a first approach in pseudocode and flowcharts and later carried out to the C programming language.
+
 The exercises were made in C/C++.
