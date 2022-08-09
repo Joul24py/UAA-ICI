@@ -10,7 +10,7 @@ The course objective was to learn the basics of programming, learning topics as 
 
 The project was made in C/C++
 
-The project was made in collaboration with Jonathan David Pardo Tinoco and Julio César Pérez Jaime.
+The project was made in collaboration with José Luis Cardona Rivera and Julio César Pérez Jaime.
 
 ---
 
