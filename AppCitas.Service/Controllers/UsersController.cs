@@ -2,6 +2,7 @@ using AppCitas.Service.Data;
 using AppCitas.Service.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
+using SQLitePCL;
 
 namespace AppCitas.Service.Controllers;
 
@@ -20,15 +21,13 @@ public class UsersController : ControllerBase
     [HttpGet]
     public ActionResult<IEnumerable<AppUser>> GetUsers()
     {
-        var users = _context.Users.ToList();
-        return users;
+        return _context.Users.ToList();
     }
 
     // GET api/users/:id
     [HttpGet("{id}")]
     public ActionResult<AppUser> GetUserById(int id)
     {
-        var user = _context.Users.Find(id);
-        return user;
+        return _context.Users.Find(id);
     }
 }
