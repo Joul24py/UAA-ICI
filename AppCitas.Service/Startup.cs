@@ -16,6 +16,11 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using AppCitas.Service.Interfaces;
 using AppCitas.Service.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authentication;
+using System.Text;
+using AppCitas.Service.Extensions;
 
 namespace API
 {
@@ -34,13 +39,9 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<ITokenService, TokenService>();
-            services.AddDbContext<DataContext>(options =>
-            {
-                options.UseSqlite(_config.GetConnectionString("DefaultConnection"));
-            });
             services.AddControllers();
             services.AddCors();
+            services.AddIdentityServices(_config);
 
             services.AddSwaggerGen(c =>
             {
@@ -63,6 +64,8 @@ namespace API
             app.UseRouting();
 
             app.UseCors(p => p.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
