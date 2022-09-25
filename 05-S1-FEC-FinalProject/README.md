@@ -20,7 +20,7 @@ The project consisted in:
 
 1. Write a program to change between numerical systems (mainly, between decimal, binary, octal, hexadecimal and maya numerical system).
 2. Write a program to paint in screen a graph and connect the cities.
-3. Append the program of the class exercises (which can be found separately in my repo [UAA-ICI-S1-FEC-GraphExercise](https://github.com/Joul24py/UAA-ICI-S1-FEC-GraphExercise)).
+3. Append the program of the class exercises (which can be found in this repo inside the folder [04-S1-FEC-GraphExercise](../04-S1-FEC-GraphExercise/)).
 4. Write a parser that can read a propositional logic proposition and so it returns the truth table of the proposition.
 
 ---
