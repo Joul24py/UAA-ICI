@@ -1,3 +1,5 @@
+using System.Security.Cryptography;
+using System.Text;
 using AppCitas.Service.Data;
 using AppCitas.Service.DTOs;
 using AppCitas.Service.Entities;
@@ -5,8 +7,6 @@ using AppCitas.Service.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Cryptography;
-using System.Text;
 
 namespace AppCitas.Service.Controllers;
 

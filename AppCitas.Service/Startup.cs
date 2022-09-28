@@ -1,6 +1,4 @@
-using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using AppCitas.Service.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,12 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using AppCitas.Service.Interfaces;
-using AppCitas.Service.Services;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication;
-using System.Text;
 using AppCitas.Service.Extensions;
 using AppCitas.Service.Middleware;
 
