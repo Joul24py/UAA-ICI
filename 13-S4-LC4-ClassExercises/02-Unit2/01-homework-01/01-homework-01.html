@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Examen</title>
+</head>
+<body>
+    
+    <h1>Ejercicio 1</h1>
+    <script type="text/javascript">
+        console.log(`Ejercicio 1`);
+        let f = new Date();
+        let d = f.getDate();
+        let m = f.getMonth()+1;
+        let a = f.getFullYear();
+        console.log(d + `/` + m + `/` + a);
+    </script>
+    
+    <h1>Ejercicio 2</h1>
+    <script type="text/javascript">
+        console.log(`Ejercicio 2`);
+        let meses = new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+        let dias = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+        let fechadias = new Date();
+        console.log(dias[fechadias.getDay()] + ", " + fechadias.getDate() + " de " + meses[fechadias.getMonth()] + " del " + fechadias.getFullYear());
+    </script>
+    
+    <h1>Ejercicio 3</h1>
+    <script type="text/javascript">
+        console.log(`Ejercicio 3`);
+        let arreglo = "Hola, Joel, Dariana, Marco, Computadora, JavaScript, HTML";
+        let i = 0;
+        let array = arreglo.split(', ');
+        do
+        {
+            if(i%2==0)
+                {
+                    console.log(array[i] + `/` + array[i].length());
+                }
+            else
+            {
+                console.log(array[i].toUpperCase + `/` + array[i].length());
+            }
+            i++;
+        }
+        while(hola);
+        
+    </script>
+</body>
+</html>

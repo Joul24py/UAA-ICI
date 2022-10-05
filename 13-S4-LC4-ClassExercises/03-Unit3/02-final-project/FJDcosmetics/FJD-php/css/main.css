@@ -1,0 +1,588 @@
+    nav {
+    background: black;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a {
+    display: inline;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.carrito {
+    float: right;
+}
+.carrito-active {
+    background: white;
+}
+.carrito-active a {
+    color: black;
+}
+main {
+    margin: 0 auto;
+    width: 600px;
+}
+.articulo {
+    display: inline-block;
+    margin-top: 2.5rem;
+    align-items: center;
+    text-align: center;
+    width: 176px;
+}
+.articulo .imagen img {
+    height: 200px;
+}
+.articulo .titulo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+button {
+    border: 0;
+    border-radius: 5px;
+    background-color: rosybrown;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+#carrito-container {
+    width: 400px;
+    background: white;
+    border: solid 1px #000;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    display: none;
+}
+#tabla .fila {
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+#tabla .fila .imagen {
+    display: inline-block;
+    width: 100px;
+}
+#tabla .fila .info {
+    box-sizing: border-box;
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 20px;
+    vertical-align: top;
+    width: 273px;
+}
+#tabla .fila .info .nombre {
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabla .fila .info .botones {
+    padding: 20px 0 0 0;
+}
+#tabla p {
+    font-size: 24px !important;
+    text-align: center;
+    font-weight: bold;
+}
+html {
+    box-sizing: border-box;
+    font-size: 85%;
+    /** 1rem = 10px **/
+}
+html {
+    box-sizing: border-box;
+    font-size: 85%;
+    /** 1rem = 10px **/
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+.centrar-texto {
+    text-align: center;
+}
+.seccion {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+.contenedor2 {
+    width: 95%;
+    max-width: 120rem;
+    /** = 1200px; **/
+    margin: 0 auto;
+}
+.d-block {
+    display: block!important;
+}
+.espacio {
+    margin-top: 15rem;
+}
+.espacio2 {
+    margin-left: 2rem;
+}
+
+/*************************************************+BOTONES**********************************/
+
+
+/** Botones **/
+
+.boton {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    display: block;
+    flex: 0 0 100%;
+}
+@media (min-width: 768px) {
+    .boton {
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+}
+.boton:hover {
+    cursor: pointer;
+    background-color: rgb(156, 20, 69);
+}
+.boton-rosa {
+    background-color: rosybrown;
+}
+.boton2 {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-top: 1rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    display: block;
+    flex: 0 0 100%;
+    padding: .5rem .5rem .5rem .5rem;
+}
+@media (min-width: 768px) {
+    .boton2 {
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+}
+.boton2:hover {
+    cursor: pointer;
+    background-color: black;
+}
+.boton-verde {
+    background-color: cadetblue;
+}
+.color {
+    color: gainsboro;
+    padding-top: 0;
+}
+
+/******************** HEADER ****************************************/
+
+.logo {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 2rem;
+}
+.site-header h1 span {
+    font-weight: 700;
+}
+.contenedor {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+}
+@media (min-width:768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.site-header {
+    background-color: black;
+    background-position: center center;
+    height: 5rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    
+}
+.site-header a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.site-header h1 {
+    text-align: center;
+    font-weight: 400;
+}
+.site-header h1 span {
+    font-weight: 700;
+}
+
+/** Navegacion **/
+
+.navegacion a {
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+    color: rosybrown;
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    .navegacion a {
+        display: inline;
+        margin-right: 1rem;
+    }
+    .navegacion a:last-of-type {
+        margin: 0;
+    }
+    .navegacion a:hover {
+        color: white;
+    }
+    .navegacion2 a {
+        text-align: center;
+        display: block;
+        font-size: 1rem;
+        color: rosybrown;
+        text-decoration: none;
+    }
+    @media (min-width: 768px) {
+        .navegacion2 a {
+            display: inline;
+            margin-right: 2rem;
+        }
+        .navegacion2 a:last-of-type {
+            margin: 0;
+        }
+        .navegacion2 a:hover {
+            color: black;
+        }
+        /*****************************************Banner************************/
+        .banner {
+            position: inherit;
+            width: 100%;
+            height: calc(55rem - 10rem);
+            background-color: #F5F5F5;
+            background-size: cover;
+            background-position: center;
+            background-position: center;
+            background-image: url(../imagenes/img11.jpg);
+        }
+        .banner-content {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            color: white;
+            background-color: rgb(.6, .6, .6, .6);
+            margin-top: 10rem;
+            padding: 0;
+            padding-bottom: 1rem;
+            font-size: 4rem;
+            text-align: center;
+        }
+        .banner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner-content h1 {
+            margin-top: 10rem;
+            padding: 0;
+            padding-bottom: 1rem;
+            font-size: 4rem;
+            text-align: center;
+            font-family: 'Neuton', serif;
+        }
+        .banner-content a {
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+            padding: 9px 10px;
+            border: 1px solid white;
+        }
+        /*********************************************************+BODY*********************************/
+        @media (min-width: 700px) {
+            .categorias {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin: 2rem;
+            }
+        }
+        .categoria1:hover {
+            cursor: pointer;
+            background-color: #F5F5F5;
+            margin-bottom: 1rem;
+        }
+        @media (min-width: 768px) {
+            .categoria1 {
+                flex: 0 0 calc(33.3% - 1rem);
+            }
+        }
+        .categoria1 {
+            padding: .5rem;
+            text-align: center;
+        }
+        .boton1 {
+            color: black;
+            text-decoration: none;
+            font-size: 1.7rem;
+            display: inline-block;
+            text-align: center;
+            border: none;
+            display: block;
+            flex: 0 0 100%;
+        }
+        .texto-entrada h4::after {
+            content: '';
+            display: block;
+            width: 95rem;
+            height: .3rem;
+            background-color: rosybrown;
+            margin-top: 1rem;
+        }
+        .contenido-categoria1 h3,
+        .contenido-categoria1 p {
+            margin: 0;
+        }
+        .precio {
+            color: palevioletred;
+            font-weight: 700;
+        }
+        .iconos-caracteristicas {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            flex: 1;
+            max-width: 300px;
+        }
+        .iconos-caracteristicas li {
+            /* flex: 1; */
+            display: flex;
+        }
+        .iconos-caracteristicas li img {
+            margin-left: 2.5rem;
+        }
+        .categoria {
+            padding: .5rem;
+            text-align: center;
+        }
+        .zoom {
+            transition: transform .5s;
+        }
+        .zoom:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+        /****************************++++++BANNER 2************************************/
+        .banner2 {
+            position: inherit;
+            width: 106.4%;
+            height: calc(40rem - 10rem);
+            background-color: #F5F5F5;
+            background-size: cover;
+            background-position: center;
+            background-position: center;
+            background-image: url(../imagenes/maybe.png);
+            margin-left: -3rem;
+            margin-top: 2rem;
+        }
+        .banner2-content {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            color: white;
+            background-color: rgb(.1, .1, .1, .1);
+            padding: 0;
+            padding-bottom: 1rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+        .banner2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+        .banner2-content h1 {
+            padding: 0;
+            padding-bottom: 1rem;
+            font-size: 3rem;
+            text-align: center;
+            margin-left: 45rem;
+            font-family: 'Dosis', sans-serif;
+        }
+        .banner2-content a {
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+            padding: 9px 10px;
+            border: 1px solid white;
+            margin-left: 45rem;
+        }
+        .banner2-content a:hover {
+            cursor: pointer;
+            background-color: black;
+        }
+        .p {
+            margin-left: 45rem;
+            font-family: 'Playfair Display', serif;
+        }
+        /*************************++REDES***********************************/
+        .redes {
+            text-align: center;
+            padding-top: 2rem;
+        }
+        .iconos-caracteristicas {
+            list-style: none;
+            padding: 0;
+            padding-top: 2rem;
+            display: flex;
+            justify-content: space-evenly;
+            flex: 1;
+            max-width: 1500px;
+        }
+        .iconos-caracteristicas li {
+            /* flex: 1; */
+            display: flex;
+        }
+        .iconos-caracteristicas li img {
+            margin-right: 2rem;
+        }
+        .p2 {
+            margin-top: 0;
+            margin-left: 47rem;
+            font-family: 'Playfair Display', serif;
+        }
+        .p2.1 {
+            margin-top: 0;
+            margin-left: 70rem;
+            font-family: 'Playfair Display', serif;
+        }
+        .p3 {
+            margin-top: 0;
+            margin-left: 3rem;
+            font-family: 'Dosis', sans-serif;
+        }
+        .p4 {
+            margin-top: 0;
+            margin-right: 47rem;
+            font-family: 'Dosis', sans-serif;
+        }
+        .banner3-content h1 {
+            padding: 0;
+            padding-bottom: 1rem;
+            font-size: 3rem;
+            text-align: center;
+            margin-left: 45rem;
+            font-family: 'Dosis', sans-serif;
+        }
+        .comprar2 {
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+            padding: 9px 10px;
+            border: 1px solid white;
+            margin-left: 47rem;
+            background-color: black;
+        }
+        .comprar2:hover {
+            cursor: pointer;
+            background-color: rgb(.6, .6, .6, .6);
+        }
+        .vermas {
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+            padding: 9px 10px;
+            border: 1px solid black;
+            margin-right: 45rem;
+            background-color: black;
+        }
+        .vermas:hover {
+            cursor: pointer;
+            background-color: rgb(.6, .6, .6, .6);
+        }
+        .nuevo {
+            font-size: 6rem;
+            font-family: 'Permanent Marker', cursive;
+            margin-left: 47rem;
+            margin-top: -4rem;
+        }
+        .nuevo2 {
+            font-size: 2rem;
+            font-family: 'Sriracha', cursive;
+            margin-right: 45rem;
+        }
+        /*************************************Footer*******************************/
+        .image {
+            margin: 0;
+            align-items: center
+        }
+        /*****************************************+CONTACTO***************************************/
+        /** Contacto **/
+        .contacto p {
+            font-size: 1.4rem;
+            color: purple;
+            margin: 2rem 0 0 0;
+        }
+        legend {
+            font-size: 2rem;
+            color: purple;
+        }
+        label {
+            font-weight: 700;
+            text-transform: uppercase;
+            display: block;
+        }
+        input:not([type="submit"]),
+        textarea,
+        select {
+            padding: 1rem;
+            display: block;
+            width: 100%;
+            background-color: linen;
+            margin-bottom: 2rem;
+            border: none;
+            border-radius: 1rem;
+        }
+        input[type="radio"] {
+            width: auto;
+            margin: 0;
+        }
+        select {
+            -webkit-appearance: none;
+            appearance: none;
+        }
+        textarea {
+            height: 20rem;
+        }
+        .forma-contacto {
+            max-width: 30rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }

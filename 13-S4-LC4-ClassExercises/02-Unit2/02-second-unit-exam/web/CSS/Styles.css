@@ -1,0 +1,477 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** 1rem = 10px **/
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/** Globales **/
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    /** = 1200px; **/
+    margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'PT Sans', sans-serif;
+}
+h1 {
+    font-size: 4.8rem;
+}
+h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+h3 {
+    font-size: 3.2rem;
+}
+h4 {
+    font-size: 2.8rem;
+}
+img {
+    max-width: 100%;
+}
+
+/** Utilidades **/
+
+.centrar-texto {
+    text-align: center;
+}
+.no-margin {
+    margin: 0;
+}
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.centrar-texto {
+    text-align: center;
+}
+.d-block {
+    display: block!important;
+}
+.contenido-centrado {
+    max-width: 800px;
+}
+.btn:hover {
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .btn {
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+}
+
+/*Background colors*/
+
+.back1 {
+    background-color: cadetblue;
+    margin-top: -5rem;
+    min-height: 100rem;
+}
+.back2 {
+    background-color: #051131;
+}
+
+/** Botones **/
+
+.btn {
+    display: block;
+    text-align: center;
+    padding: 1rem 3rem;
+    margin: 2rem 0;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+    flex: 0 0 100%;
+}
+.btn:hover {
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .btn {
+        display: inline-block;
+        margin-left: 3rem;
+        flex: 0 0 auto;
+    }
+}
+.btn-primario {
+    background-color: #000000;
+}
+.btn-secundario {
+    background-color: #784d3c;
+}
+
+/** Header **/
+
+@media (min-width:768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.site-header {
+    background-image: url(../img2/azul2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60rem;
+}
+.site-header a {
+    color: floralwhite;
+    text-decoration: none;
+}
+.site-header h1 {
+    text-align: center;
+    font-weight: 400;
+}
+.site-header h1 span {
+    font-weight: 700;
+}
+
+/** Navegacion **/
+
+.navegacion a {
+    color: orange;
+    text-decoration: none;
+    font-size: 2.2rem;
+    display: block;
+}
+@media (min-width: 768px) {
+    .navegacion a {
+        display: inline-block;
+        font-size: 1.8rem;
+        /** = 18px **/
+        margin-right: 2rem;
+    }
+    .navegacion a:last-of-type {
+        margin: 0;
+    }
+}
+
+/** header texto **/
+
+.texto-header {
+    color: floralwhite;
+    text-align: center;
+    margin-top: 5rem;
+}
+@media (min-width: 768px) {
+    .texto-header {
+        margin-top: 15rem;
+    }
+}
+.texto-header p {
+    font-size: 2.2rem;
+}
+
+/**Entrada blog */
+
+.entrada-blog {
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+    min-height: 100rem;
+}
+@media (min-width: 768px) {
+    .entrada-blog {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.entrada-blog:last-of-type {
+    margin-bottom: 0;
+}
+@media (min-width: 768px) {
+    .entrada-blog .imagen {
+        flex-basis: 37%;
+        margin-left: 10rem;
+        margin-top: 33rem;
+    }
+    .entrada-blog .texto-entrada {
+        flex-basis: calc(40% - 12rem);
+    }
+}
+.texto-entrada a {
+    color: white;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.texto-entrada h4 {
+    margin-top: 33rem;
+    line-height: 1.4;
+}
+.texto-entrada h4::after {
+    content: '';
+    display: block;
+    width: 35rem;
+    height: .5rem;
+    background-color: #71B100;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+.texto-entrada span {
+    color: lightcoral;
+}
+
+/** Iconos Nosotros **/
+
+.color-texto {
+    color: floralwhite;
+    text-align: center;
+    margin-top: 5rem;
+}
+@media (min-width: 768px) {
+    .iconos-nosotros {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.icono {
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .icono {
+        flex-basis: calc(33.3% - 2rem);
+    }
+}
+.icono h3 {
+    text-transform: uppercase;
+}
+.altura {
+    padding-top: 17rem;
+}
+
+/** Footer **/
+
+.site-footer {
+    background-color: darkslategrey;
+    min-height: 30rem;
+}
+.site-footer p {
+    margin-top: 13rem;
+    color: white;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+.site-footer p span {
+    font-weight: 700;
+}
+
+/************************************************************************************************************************************/
+
+
+/** Custom propieties**/
+
+:root {
+    --primario: #C21858;
+    --secundario: #FFC107;
+}
+body {
+    background-color: #C21858;
+}
+.bg-amarillo {
+    background-color: #FFC107;
+}
+
+.bg-blanco{
+    background-color: white;
+}
+.contenedor2 {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.sombra {
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, .5);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+.h1 {
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+.contenedor-barra {
+    background-color: rgb(156, 20, 69)
+}
+
+/***FORMULARIO*/
+
+form {
+    padding: 3rem;
+    margin-top: 2rem;
+}
+form legend {
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 38rem;
+}
+@media (min-width:768px) {
+    .campos {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+    }
+    .Campo {
+        flex: 0 0 clac(33.3%-1rem);
+        margin-top: 2rem;
+    }
+}
+
+.Campo {
+        padding: .5rem 0;      
+    }
+
+.Campo label{
+    font-size: 1.6rem;
+}
+
+.Campo input[type="text"],
+.Campo input[type="int"]{
+    width:100%;
+    border: none;
+    padding: .5rem;
+    height: 3.5rem;
+    margin-top: .5rem;
+}
+
+.enviar{
+    display: flex;
+    justify-content: flex-end;
+}
+.Campo input[type="submit"]{
+     background-color: #C21858;
+    border: none;
+    color: white;
+    padding: 1.2rem 4rem;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    transition: background-color .5s ease-in-out;
+    flex: 1;
+    
+}
+.Campo input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(156, 20, 69);
+}
+
+@media (min-width:768px) {
+    .Campo input[type="submit"]{
+        flex: 0 0 auto;
+    }
+    
+}
+
+/****lista********/
+.h2{
+    
+    color: #C21858;
+    
+}
+.alumnos{
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    
+}
+
+.contenedor-alumnos{
+    max-width: 900px;
+    margin: 1rem 0 0 2rem;   
+}
+.letra-color{
+    color: black;
+}
+.buscador{
+    width: 100%;
+    height: 4.5rem;
+    padding: 1rem;
+    border: 1px solid #e1e1e1;
+    margin: 2rem 10rem; 
+}
+.listado-alumnos{
+    margin: 0;
+    width: 120%;
+    margin-top: 1rem; 
+    border-collapse: collapse;
+}
+.listado-alumnos thead{
+    background-color: #C21858;  
+    
+}
+.listado-alumnos thead th{
+    padding: 1rem 0;
+    color: white;
+    margin-right: 2rem;
+    
+}
+.listado-alumnos tbody td{
+    padding: .5rem;     
+}
+.listado-alumnos button{
+    
+    border: none;
+}
+
+.listado-alumnos tbody td:nth-child(4){
+    text-align: center;
+}
+
+.btn2{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+}
+.btn-editar{
+    background-color:#FFC107; 
+}
+.btn-borrar{
+    background-color:#C21858; 
+    
+}
+
+.btn2:hover {
+    cursor: pointer;
+}
+/************ editar*********************/
+.barra2{
+    display: grid;
+    grid-template-columns:100px 1fr;
+    align-items: center;
+}
+.volver{
+    background-color: #FFC107;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: .5rem;  
+}
+
