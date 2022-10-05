@@ -10,4 +10,4 @@ The course objective was to know and apply numerical methods linking mathematica
 
 The exercises were made in C++.
 
-The project was made in collaboration with [Dariana Gómez Garza](https://github.com/DariGmz) and Fernando Francisco González Arenas.
+The class exercises were made in collaboration with [Dariana Gómez Garza](https://github.com/DariGmz) and Fernando Francisco González Arenas.
