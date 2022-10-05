@@ -8,7 +8,7 @@ The course was given by the Professor Rosalinda Avendaño López.
 
 The course objective was to learn the basics of programming, learning topics as input and output, conditionals or loops; all of this with a first approach in pseudocode and flowcharts and later carried out to the C programming language.
 
-The project was made in C/C++
+The project was made in C/C++.
 
 The project was made in collaboration with José Luis Cardona Rivera and Julio César Pérez Jaime.
 
