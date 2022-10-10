@@ -1,0 +1,125 @@
+           Universidad Autónoma de Aguascalientes
+                 Centro de Ciencias Básicas
+         Departamento de Ciencias de la Computación
+                           8° "A"
+
+             Examen / Tarea 1: Código de apoyo
+                     READ ME del código
+
+               Docente: Hermilo Sánchez Cruz
+
+           Alumnos:
+              Espinoza Sánchez Joel Alejandro
+              Flores Fernández Óscar Alonso
+              Gómez Garza Dariana
+              Gónzalez Arenas Fernando Francisco
+
+Fecha de Entrega: Aguascalientes, Ags., 11 de abril del 2022
+
+
+
+
+
+----------------------- Introducción -----------------------
+El presente trabajo muestra la solución propuesta por el equipo en cuestión a la tarea que se dejó dentro del mismo entorno de clase.
+La tarea consistía en una serie de instrucciones para manipular imágenes dadas dentro de una carpeta llamada "bilevel_images".
+Entre otras operaciones, se pedía realizar cálculos como la obtención de 1-píxeles, centro de masa de los objetos, componentes conectados considerando dos vecindades en específico (vecindad-4 y vecindad-8) así como el contorno de las imágenes de esta misma forma, entre otros y apoyándose en algún lenguaje de programación para la realización de este análisis.
+
+El presente equipo decidió usar Python como lenguaje de programación para la realización de esta tarea. Bajo este enfoque, también se decidió dividir el entregable en múltiples archivos para facilitar la integración en el trabajo de equipo y mejorar el desarrollo.
+De esta manera, el entregable se compone de un archivo por ejercicio (excepto el ejercicio 1, este paso se realiza como parte del procedimiento de cada uno de los otros nueve ejercicios) y un archivo más dedicado a las funciones que se usarán llamado functions.py.
+Este trabajo requiere dentro del mismo directorio tener estos archivos junto con una carpeta llamada "images" que a su vez contenga otra carpeta de nombre "bilevel_images" las cuales contengan las imágenes proporcionadas para analizar. También es necesario que se instale la librería OpenCV de Python. Se aclaró que no se usara ninguna librería en el tratamiento y así fue; su única función dentro del código es para cargar las imágenes al programa.
+Con lo anterior aclarado, puede abrirse un entorno de Python para cargar y ejecutar los archivos del entregable. A continuación se pasará a explicar cada uno de los archivos, empezando con el de funciones, pues es el que apoya al funcionamiento del resto de los ejercicios.
+
+
+
+
+
+----------------------- functions.py -----------------------
+Este es el archivo que ayuda a todo el procesamiento de los demás. El archivo contiene todas las imágenes para que los demás archivos mantengan una estructura limpia y fácil de leer al momento de ejecutarse.
+Atención: Este archivo no debe de ejecutarse, pues no realizará nada. Las funciones sólo serán ejecutadas hasta que se llamen desde los otros archivos.
+A continuación se mencionarán las funciones que están en este archivo.
+
+- loadImages(): Esta función cubre el papel de lo pedido en el ejercicio 1 de la tarea, pues es la encargada de traer el mismo conjunto de imágenes para todos los ejercicios sin tener que cambiar de uno en uno los valores por cada archivo. Lo único que realiza es regresar un arreglo de cadenas con el nombre de las imágenes a seleccionar.
+
+- getDimensions(): Esta función se encarga de obtener los valores de anchura y altura de una imagen y estos mismos son los valores que retorna al darle una imagen dada como parámetro.
+
+- transform_data(): Esta función transforma los datos para que sea más manejable por los integrantes del equipo, ya que, como se mencionó en el apartado anterior, el único uso que se hace de la única librería importada es el de cargar la imagen en el programa, sin embargo, la forma de cargar la imagen es a través de un arreglo numérico de Python conocido como un arreglo Numpy. Para trabajar como un arreglo estándar se decidió implementar esta función que transforma un arreglo de Numpy a un arreglo estándar.
+
+- calcPixels(): Esta función es el motor principal del ejercicio 2. Es en esta función donde se calculan los 1-píxeles y los 0-píxeles de una imagen. Retorna ambos valores pese a que sólo se usen los 1-píxeles.
+
+- calcMassCenter(): Esta función es el tronco del ejercicio 3 pues es aquí donde se calcula el centro de masa de una imagen. Se le pasa como parámetro una imagen y sus dimensiones junto con la cantidad de 1-píxeles y realizará este tratamiento devolviendo las coordenadas del centro de masa en variables separadas: x, y.
+
+- calcConnected_4(): Esta función es una de las dos usadas en el ejercicio 4, pues con esta se calculan los componentes conectados de una imagen tomando en cuenta la vecindad-4. Realiza todo el algoritmo de definición de componentes conectados, desde el etiquetado de cada píxel, su validación y eliminación de etiquetas repetidas hasta incluso la reducción de etiquetas aplicando transitividad de equivalencias en cuanto a las etiquetas. Finalmente, la función retorna la cantidad de componentes conectados así como una serie de números para ubicarlos en una exportación que realiza en formato txt con la imagen convertida con nombre "conn-comp-4-001.txt" si se usara la imagen 001.bmp.
+
+- calcConnected_8(): Esta función es la otra de las dos usadas en el ejercicio 4, pues con esta se calculan los componentes conectados de una imagen tomando en cuenta la vecindad-8. Realiza todo el algoritmo de definición de componentes conectados, desde el etiquetado de cada píxel, su validación y eliminación de etiquetas repetidas hasta incluso la reducción de etiquetas aplicando transitividad de equivalencias en cuanto a las etiquetas. Finalmente, la función retorna la cantidad de componentes conectados así como una serie de números para ubicarlos en una exportación que realiza en formato txt con la imagen convertida con nombre "conn-comp-8-001.txt" si se usara la imagen 001.bmp.
+
+- calcPerimeter_4(): Esta función es una de las dos usadas en el ejercicio 5, pues con esta se obtiene el contorno de una imagen tomando en cuenta la vecindad-4. Realiza un algoritmo similar al de componentes conectados etiquetando cada píxel y exportando el producto en formato txt con la imagen convertida con nombre "perimeter-4-001.txt" si se usara la imagen 001.bmp.
+
+- calcPerimeter_8(): Esta función es una de las dos usadas en el ejercicio 5, pues con esta se obtiene el contorno de una imagen tomando en cuenta la vecindad-8. Realiza un algoritmo similar al de componentes conectados etiquetando cada píxel y exportando el producto en formato txt con la imagen convertida con nombre "perimeter-8-001.txt" si se usara la imagen 001.bmp.
+
+- overlap(): Esta función es la que se encarga de realizar el procedimiento requerido para el ejercicio 6, que consiste en superponer dos objetos haciendo coincidir el centro de masa. También es usado en el ejercicio 7 que consiste en hacer lo mismo pero con el conjunto de las 10 imágenes tratándolas de una en una. La función comparará ambas imágenes, alineando ambas en función de su centro de masa y completando lo que falte en una imagen. Posteriormente las junta y mientras realiza el procedimiento, cuenta cuántos píxeles comparten las dos imágenes y cuántos no, por separado, valores que devuelve la función.
+
+- calcCentralMoment(): Esta función es usada para el ejercicio 8, en donde debe calcularse el momento central de una imagen dados valores de p y q. Con esta información, la función se encarga de realizar el procedimiento requerido para devolver este valor.
+
+
+
+
+
+---------------------- exercise-02.py ----------------------
+En el ejercicio 2 se nos pide calcular la cantidad de 1-píxeles de una imagen. El archivo primero carga las imágenes que se establecieron en loadImages(), posteriormente lee de una por una, obtiene el ancho y alto de cada una con la función getDimensions() así como transforma los datos para mejor tratamiento con transform_data() y con estos datos calcula la cantidad de 1-píxeles usando la función calcPixels(). La información se desplegará en consola.
+
+
+
+
+
+---------------------- exercise-03.py ----------------------
+En el ejercicio 3 se nos pide calcular el centro de masa de una imagen. El archivo primero carga las imágenes que se establecieron en loadImages(), posteriormente lee de una por una, obtiene el ancho y alto de cada una con la función getDimensions() así como transforma los datos para mejor tratamiento con transform_data() para posteriormente calcular la cantidad de 1-píxeles usando la función calcPixels() y finalmente, con la función calcMassCenter() obtiene el dato requerido por este ejercicio. La información se desplegará en consola.
+
+
+
+
+
+---------------------- exercise-04.py ----------------------
+En el ejercicio 4 se nos pide obtener los componentes conectados de una imagen. El archivo primero carga las imágenes que se establecieron en loadImages(), posteriormente lee de una por una, obtiene el ancho y alto de cada una con la función getDimensions() así como transforma los datos para mejor tratamiento con transform_data() y después de esto, haciendo uso de las funciones calcConnected_4() y calcConnected_8() obtiene los componentes conectados usando como criterio vecindad-4 y vecindad-8 respectivamente. La información se desplegará en consola así como creará un archivo txt donde, por ejemplo, si se analiza la imagen 001.bmp, generará un archivo "conn-comp-4-001.txt" y "conn-comp-8-001.txt" donde puede observarse visualmente el resultado del análisis.
+
+
+
+
+
+---------------------- exercise-05.py ----------------------
+En el ejercicio 5 se nos pide obtener el contorno de una imagen. El archivo primero carga las imágenes que se establecieron en loadImages(), posteriormente lee de una por una, obtiene el ancho y alto de cada una con la función getDimensions() así como transforma los datos para mejor tratamiento con transform_data() y después de esto, haciendo uso de las funciones calcPerimeter_4() y calcPerimeter_8() obtiene el contorno usando como criterio vecindad-4 y vecindad-8 respectivamente. Se creará un archivo txt donde, por ejemplo, si se analiza la imagen 001.bmp, generará un archivo "perimeter-4-001.txt" y ""perimeter-8-001.txt" donde puede observarse visualmente el resultado del análisis.
+
+
+
+
+
+---------------------- exercise-06.py ----------------------
+En el ejercicio 6 se nos pide superponer dos imágenes haciendo coincidir el centro de masa de ambas. El archivo primero carga dos imágenes elegidas dentro de dos variables imageName1 e imageName2, posteriormente a ambas realiza el procedimiento de cálculo del ancho y alto por imagen con la función getDimensions() así como transforma los datos de ambas para mejor tratamiento con transform_data() y calcular la cantidad de 1-píxeles usando la función calcPixels() así como, con la función calcMassCenter() obtiene el dato de centro de masa por imagen. Después, con la función overlap() sobrepondrá ambas imágenes. La información se desplegará en consola sobre la cantidad de píxeles en común que encontró entre ambas imágenes, así como los píxeles por separado que no comparten así como creará un archivo txt donde, por ejemplo, si se analiza las imágenes 001.bmp y 002.bmp, generará un archivo "overlap-001-002.txt" donde puede observarse visualmente el resultado del análisis.
+
+
+
+
+
+---------------------- exercise-07.py ----------------------
+En el ejercicio 7 se nos pide realizar la superposición de imágenes como en el ejercicio 6, pero eligiendo una imagen del conjunto de diez imágenes y comparándolas una a una con las otras nueve. El archivo primero carga las imágenes que se establecieron en loadImages() y elige una que guardará en  imageName1, posteriormente toma cíclicamente a una del resto del conjunto de las diez imágenes de una en una y a ambas realiza el procedimiento de cálculo del ancho y alto por imagen con la función getDimensions() así como transforma los datos de ambas para mejor tratamiento con transform_data() y calcular la cantidad de 1-píxeles usando la función calcPixels() así como, con la función calcMassCenter() obtiene el dato de centro de masa por imagen. Después, con la función overlap() sobrepondrá ambas imágenes. La información se desplegará en consola a modo de tabla de píxeles comunes y no comunes en cada uno de los análisis por imagen que hizo, así como los píxeles por separado que no comparten así como creará un archivo txt donde, por ejemplo, si se analiza las imágenes 001.bmp y 002.bmp, generará un archivo "overlap-001-002.txt" donde puede observarse visualmente el resultado del análisis.
+
+
+
+
+
+---------------------- exercise-08.py ----------------------
+En el ejercicio 8 se nos pide calcular los momentos centrales de una imagen. El archivo primero carga las imágenes que se establecieron en loadImages(), posteriormente lee de una por una, obtiene el ancho y alto de cada una con la función getDimensions() así como transforma los datos para mejor tratamiento con transform_data() para posteriormente calcular la cantidad de 1-píxeles usando la función calcPixels() y con la función calcMassCenter() obtiene el centro de masa de la imagen. Este dato es útil para, posteriormente usarlo en la función calcCentralMoment() que retornará el momento central especificado de la imagen. La información se desplegará en consola para las distintas imágenes previamente redimensionadas.
+
+
+
+
+
+---------------------- exercise-09.py ----------------------
+En el ejercicio 9 se nos pide calcular el invariante de escala antes y después de un escalamiento. El archivo primero carga las imágenes que se establecieron en loadImages(), posteriormente lee de una por una, obtiene el ancho y alto de cada una con la función getDimensions() así como transforma los datos para mejor tratamiento con transform_data() para posteriormente calcular la cantidad de 1-píxeles usando la función calcPixels() y con la función calcMassCenter() obtiene el centro de masa de la imagen. Este dato es útil para, posteriormente usarlo en la función calcCentralMoment() que retornará el momento central especificado de la imagen. La información se desplegará en consola para las distintas imágenes previamente reescaladas.
+
+
+
+
+
+---------------------- exercise-10.py ----------------------
+En el ejercicio 10 se nos pide calcular los tres primeros momentos en Hu antes y después de las rotaciones. El archivo primero carga las imágenes que se establecieron en loadImages(), posteriormente lee de una por una, obtiene el ancho y alto de cada una con la función getDimensions() así como transforma los datos para mejor tratamiento con transform_data() para posteriormente calcular la cantidad de 1-píxeles usando la función calcPixels() y con la función calcMassCenter() obtiene el centro de masa de la imagen. Este dato es útil para, posteriormente usarlo en la función calcCentralMoment() que retornará el momento central especificado de la imagen. La información se desplegará en consola para las distintas imágenes previamente rotadas.
