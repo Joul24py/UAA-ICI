@@ -8,6 +8,6 @@ The course was given by the Professor Francisco Javier Ornelas Zapata.
 
 The course objective was to keep going building some automatons.
 
-The exercises were made in Python and R.
+The exercises were made in Python.
 
 The exercises were made in collaboration with [Andrea Melissa Almeida Ortega](), Óscar Alonso Flores Fernández, [Dariana Gómez Garza](https://github.com/DariGmz), Fernando Francisco González Arenas and [Hiram Efraín Orocio García]().

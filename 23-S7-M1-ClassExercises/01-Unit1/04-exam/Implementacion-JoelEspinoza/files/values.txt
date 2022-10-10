@@ -1,0 +1,10 @@
+Modo de personalización del programa: 1
+Cantidad de elementos por individuo: 18
+Cantidad de individuos: 20
+Probabilidad de cruzamiento (0 - 100): 40
+Probabilidad de mutación (0 - 100): 1
+Cantidad de individuos a heredar por elitismo: 0
+Cantidad de generaciones: 50
+Intervalo inferior en x: 0
+Intervalo superior en x: 20
+Precisión: 0.0001

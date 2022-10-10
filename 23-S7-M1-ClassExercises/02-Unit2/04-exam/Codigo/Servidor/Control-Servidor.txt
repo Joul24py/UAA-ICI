@@ -1,0 +1,55 @@
+Estado: 0
+Cliente Melissa: 0
+Cliente Joel: 0
+Cliente Oscar: 0
+Cliente Dariana: 0
+Cliente Fernando: 0
+Cliente Hiram: 0
+
+MELISSA
+Procesador (ultimo contacto): 0
+Historial del procesador:
+
+Tweets enviados a procesar: 0
+Tweets ya procesados: 0
+Tiempo: 0
+
+JOEL
+Procesador (ultimo contacto): 0
+Historial del procesador:
+
+Tweets enviados a procesar: 0
+Tweets ya procesados: 0
+Tiempo: 0
+
+OSCAR
+Procesador (ultimo contacto): 0
+Historial del procesador:
+
+Tweets enviados a procesar: 0
+Tweets ya procesados: 0
+Tiempo: 0
+
+DARIANA
+Procesador (ultimo contacto): 0
+Historial del procesador:
+
+Tweets enviados a procesar: 0
+Tweets ya procesados: 0
+Tiempo: 0
+
+FERNANDO
+Procesador (ultimo contacto): 0
+Historial del procesador:
+
+Tweets enviados a procesar: 0
+Tweets ya procesados: 0
+Tiempo: 0
+
+HIRAM
+Procesador (ultimo contacto): 0
+Historial del procesador:
+
+Tweets enviados a procesar: 0
+Tweets ya procesados: 0
+Tiempo: 0
