@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Primer Parcial</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <color name="myColor">#F5F5F5</color>
+    <string name="celsius">Sumar</string>
+    <string name="fahrenheit">Restar</string>
+    <string name="calc">Calcular</string>
+    <string name="hint_text1">Número 1</string>
+    <string name="hint_text2">Número 2</string>
+</resources>
