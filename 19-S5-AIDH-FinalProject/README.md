@@ -1,6 +1,6 @@
 # UAA-ICI-S5-AIDH-FinalProject
 
-> Class exercises made in the subject Intelligent Architecture for Hybrid Development (in spanish, "Arquitectura Inteligente de Desarrollo Híbrido" or as I abbreviate it "AIDH") which was given in my fifth semester of my career: Engineer in Intelligent Computing (in spanish, "Ingeniería en Computación Inteligente", or abbreviated "ICI") studied at the Aguascalientes Autonomous University (in spanish, "Universidad Autónoma de Aguascalientes", or abbreviated "UAA").
+> Final project made in the subject Intelligent Architecture for Hybrid Development (in spanish, "Arquitectura Inteligente de Desarrollo Híbrido" or as I abbreviate it "AIDH") which was given in my fifth semester of my career: Engineer in Intelligent Computing (in spanish, "Ingeniería en Computación Inteligente", or abbreviated "ICI") studied at the Aguascalientes Autonomous University (in spanish, "Universidad Autónoma de Aguascalientes", or abbreviated "UAA").
 
 ---
 

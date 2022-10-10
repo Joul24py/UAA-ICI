@@ -1,0 +1,64 @@
+persona(luis).
+persona(johnny).
+persona(emmanuel).
+persona(pol).
+
+/*
+CONSULTAS
+
+?- persona(_).
+
+?- persona(X).
+
+?- persona(luis).
+
+?- persona(juan).
+*/
+
+estilo(thefold,rock).
+estilo(alanwalker,electronica).
+estilo(avicii,electronica).
+estilo(thescore,rock).
+estilo(edsheeran,pop).
+estilo(greenday,punk).
+estilo(eminem,rap).
+
+/*
+CONSULTAS
+
+?- estilo(_,rock).
+
+?- estilo(Banda,pop).
+
+?- estilo(_,electronica).
+
+?- estilo(_,clasica).
+
+?- estilo(Banda,Estilo).
+*/
+
+escuchoeltema(luis,tema(medicine,thefold)).
+escuchoeltema(luis,tema(love,thefold)).
+escuchoeltema(luis,tema(faded,alanwalker)).
+escuchoeltema(luis,tema(wakemeup,avicii)).
+escuchoeltema(luis,tema(stay,thescore)).
+escuchoeltema(luis,tema(photograph,edsheeran)).
+escuchoeltema(luis,tema(holiday,greenday)).
+escuchoeltema(luis,tema(berzerk,eminem)).
+
+escuchoeltema(johnny,tema(medicine,thefold)).
+escuchoeltema(johnny,tema(love,thefold)).
+escuchoeltema(johnny,tema(faded,alanwalker)).
+escuchoeltema(johnny,tema(wakemeup,avicii)).
+escuchoeltema(johnny,tema(stay,thescore)).
+escuchoeltema(johnny,tema(photograph,edsheeran)).
+escuchoeltema(johnny,tema(holiday,greenday)).
+escuchoeltema(johnny,tema(berzerk,eminem)).
+
+
+
+
+
+
+
+
