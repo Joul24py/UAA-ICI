@@ -1,2 +1,3 @@
 # UAA-ICI
-Programming exercises done while I studied ICI at the UAA
+
+Programming exercises done while studying ICI at the UAA
