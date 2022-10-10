@@ -9,3 +9,5 @@ The course was given by the Professor Francisco Javier Luna Rosas.
 The course objective was to have an introduction to supervised learning, unsupervised learning and reinforcement learning.
 
 The exercises were made in Python and R.
+
+Some exercises were made only by myself, some exercises were made in collaboration with [Dariana Gómez Garza](https://github.com/DariGmz) and Fernando Francisco González Arenas.
