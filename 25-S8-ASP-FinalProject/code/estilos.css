@@ -1,0 +1,174 @@
+/*-------------------------------------------- PANTALLA DE INICIO------------------------------------------------------------*/
+
+.body-index{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #e76f51 0%, #fff 100%);
+    flex-direction: column;
+}
+
+.btn-inicio{
+    position: relative;
+    display: inline-block;
+    padding: 25px 46px;
+    margin: 20px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    overflow: hidden;
+    /*background-image: linear-gradient(60deg, #c2e59c 0%, #64b3f4 100%);*/
+    background-color: #CD8E94;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.btn-inicio2
+{
+   /*background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);*/
+    background-color: #e9c46a;
+}
+
+.btn-inicio:hover{
+    transform: translate(0,-6px);
+    box-shadow: 10px -10px 25px 0 #fe5196, -10px 10px 25px #f77062;
+    cursor: pointer;
+    transition: 1s;
+    background-color: #D8A8AD;
+}
+
+.bienvenido-letra{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.sesion-letra{
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+}
+
+
+/*-------------------------------------------- PANTALLA DE REGISTRO------------------------------------------------------------*/
+
+:root{
+    --colorTextos: #49454567;
+}
+
+.body-registro{
+    height: 700px;
+    background-image: linear-gradient(to right, #e76f51 0%, #fff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro-letra{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    
+    font-size: 50px;
+}
+
+form{
+    background-color: #fff;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;    
+}
+
+.form{
+    width:100%;
+    margin: auto;
+}
+
+form .grupo{
+    position: relative;
+    margin: 45px;
+}
+
+input{
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+input:focus{
+    outline: none;
+    color: rgb(94,91,93);
+    font-family: 'Roboto Flex', sans-serif;
+}
+label{
+    color: var(--colorTextos);
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+input:focus~label,
+input:valid~label{
+    top:-14px;
+    font-size: 12px;
+    color: #3d405b;
+}
+
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.barra::before{
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0; 
+    position: absolute;
+    background: linear-gradient(to right, #e76f51 0%, #fff 100%);
+    transition: 0.3s ease width;
+    left 0;
+}
+
+input:focus~.barra::before{
+    width: 110%
+}
+
+button{
+    font-family: 'Amatic SC', cursive;
+    background: linear-gradient(to right, #e76f51 0%, #fff 100%);
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 30px;
+    cursor: pointer; 
+}
+button:hover{
+    transform: translate(0,-1px);
+    box-shadow: 5px -5px 25px 0 #fe5196, -10px 5px 25px #f77062;
+    transition: 0.5s;
+    background-color: #D8A8AD;
+}
+@media screen and (max-width:500px){
+    form{
+        width: 80%;
+        
+    }
+}
+
+
+
