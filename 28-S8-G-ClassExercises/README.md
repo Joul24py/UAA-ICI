@@ -10,4 +10,4 @@ The course objective was to learn how to use CAD software and modelling figures 
 
 The exercises were made in Python.
 
-The exercises were made in collaboration with Óscar Alonso Flores Fernández, [Dariana Gómez Garza](https://github.com/DariGmz) and Fernando Francisco González Arenas.
+The exercises were made in collaboration with [Óscar Alonso Flores Fernández](https://github.com/Dem0n2000), [Dariana Gómez Garza](https://github.com/DariGmz) and Fernando Francisco González Arenas.

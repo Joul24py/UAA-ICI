@@ -10,4 +10,4 @@ The course objective was to have an introduction to this abstract machines and b
 
 The project was made in C++.
 
-The final project was made in collaboration with Óscar Alonso Flores Fernández, [Dariana Gómez Garza](https://github.com/DariGmz), Fernando Francisco González Arenas, Marco Antonio Martínez Gaytán and Andrea Juliett Ordaz de Vierna.
+The final project was made in collaboration with [Óscar Alonso Flores Fernández](https://github.com/Dem0n2000), [Dariana Gómez Garza](https://github.com/DariGmz), Fernando Francisco González Arenas, Marco Antonio Martínez Gaytán and Andrea Juliett Ordaz de Vierna.

@@ -10,7 +10,7 @@ The course objective was to apply the PROLOG knowledge and develop a expert syst
 
 The project was made in Python.
 
-The project was made in collaboration with Óscar Alonso Flores Fernández, [Dariana Gómez Garza](https://github.com/DariGmz) and Fernando Francisco González Arenas.
+The project was made in collaboration with [Óscar Alonso Flores Fernández](https://github.com/Dem0n2000), [Dariana Gómez Garza](https://github.com/DariGmz) and Fernando Francisco González Arenas.
 
 ---
 
@@ -18,7 +18,7 @@ Our project was a crossover between careers: UAA: ICI (Universidad Autónoma de 
 
 UAA ICI was in the role of Knowledge Engineers:
 - Joel Alejandro Espinoza Sánchez
-- Óscar Alonso Flores Fernández
+- [Óscar Alonso Flores Fernández](https://github.com/Dem0n2000)
 - [Dariana Gómez Garza](https://github.com/DariGmz)
 - Fernando Francisco González Arenas
 
