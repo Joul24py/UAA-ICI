@@ -27,7 +27,7 @@ namespace AppCitas.UnitTests
             })
             .ConfigureServices(services =>
             {
-                // Remove the app's ApplicationDbContext registration.
+                // Remove the app's ApplicationDbContext registration.
                 var descriptor = services.SingleOrDefault(
                     d => d.ServiceType == typeof(DbContextOptions<DataContext>));
 
@@ -36,7 +36,7 @@ namespace AppCitas.UnitTests
                     services.Remove(descriptor);
                 }
 
-                // Add a database context using an in-memory database for testing.
+                // Add a database context using an in-memory database for testing.
                 services.AddDbContext<DataContext>(options =>
                 {
                     options.UseSqlite(Configuration.GetConnectionString("DefaultConnection"));
@@ -44,11 +44,11 @@ namespace AppCitas.UnitTests
                 });
             })
 
-            // ConfigureTestServices will be fired after actual Startup's ConfigureServices are called
-            // Hence anything written in this will override that setting (except EF Sql DBContext)
+            // ConfigureTestServices will be fired after actual Startup's ConfigureServices are called
+            // Hence anything written in this will override that setting (except EF Sql DBContext)
             .ConfigureTestServices(async services =>
             {
-                // Build the service provider.
+                // Build the service provider.
                 var sp = services.BuildServiceProvider();
 
                 using (var scope = sp.CreateScope())
@@ -66,7 +66,7 @@ namespace AppCitas.UnitTests
                     catch (Exception ex)
                     {
                         var logger = sp.GetRequiredService<ILogger<Program>>();
-                        logger.LogError(ex, "An error has occurred during migration/seeding.");
+                        logger.LogError(ex, "An error has occurred during migration/seeding.");
                     }
                 }
             });

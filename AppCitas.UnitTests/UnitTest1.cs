@@ -5,7 +5,7 @@ namespace AppCitas.UnitTests
         [Fact]
         public void Test1()
         {
-            // Arrange
+            //Arrange
             var x = 1;
 
             // Act
@@ -21,9 +21,10 @@ namespace AppCitas.UnitTests
         public void Test2(int x, int resp)
         {
             // Arrange
+            //var x = 1;
 
             // Act
-            int y = 2 * x;
+            var y = 2 * x;
 
             // Assert
             Assert.Equal(resp, y);
