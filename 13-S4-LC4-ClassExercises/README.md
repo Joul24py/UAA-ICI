@@ -13,5 +13,5 @@ The exercises were made in HTML, CSS, JavaScript, PHP and MySQL.
 ---
 
 Some exercises were solved in company:
-- The first unit exam was made in collaboration with [Dariana Gómez Garza](https://github.com/DariGmz), Fernando Francisco González Arenas and Marco Antonio Martínez Gaytán.
+- The first unit exam was made in collaboration with [Dariana Gómez Garza](https://github.com/DariGmz), Fernando Francisco González Arenas and [Marco Antonio Martínez Gaytán](https://github.com/MarcoMaxe).
 - The second unit exam and third unit exam were made in collaboration with [Dariana Gómez Garza](https://github.com/DariGmz) and Fernando Francisco González Arenas.

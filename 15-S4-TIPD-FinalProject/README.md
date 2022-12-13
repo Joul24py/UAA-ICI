@@ -10,4 +10,4 @@ The course objective was to learn about the documentation in the software engine
 
 The project was made in Java and SQLite.
 
-The project was made in collaboration with Fernando Francisco González Arenas, Erick Daniel Fernández Cruz and Marco Antonio Martínez Gaytán.
+The project was made in collaboration with Fernando Francisco González Arenas, Erick Daniel Fernández Cruz and [Marco Antonio Martínez Gaytán](https://github.com/MarcoMaxe).
