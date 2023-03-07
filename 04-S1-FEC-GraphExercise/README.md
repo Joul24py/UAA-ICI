@@ -1,6 +1,6 @@
 # UAA-ICI-S1-FEC-GraphExercise
 
-> Class exercise made in the subject Fundamentals of Computing Structures (in spanish, "Fundamentos de Estructuras Computacionales" or as I abbreviate it "FEC") which was given in my first semester of my career: Engineer in Intelligent Computing (in spanish, "Ingeniería en Computación Inteligente", or abbreviated "ICI") studied at the Aguascalientes Autonomous University (in spanish, "Universidad Autónoma de Aguascalientes", or abbreviated "UAA").
+> Class exercise made in the subject Fundamentals of Computational Structures (in spanish, "Fundamentos de Estructuras Computacionales" or as I abbreviate it "FEC") which was given in my first semester of my career: Engineer in Intelligent Computing (in spanish, "Ingeniería en Computación Inteligente", or abbreviated "ICI") studied at the Aguascalientes Autonomous University (in spanish, "Universidad Autónoma de Aguascalientes", or abbreviated "UAA").
 
 ---
 
