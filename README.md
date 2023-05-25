@@ -1,6 +1,6 @@
 # UAA ICI Coding Exercises
 
-I'm studying my degree in Engineer in Intelligent Computing (in spanish, "Ingeniería en Computación Inteligente", or abbreviated "ICI") at the Aguascalientes Autonomous University (in spanish, "Universidad Autónoma de Aguascalientes", or abbreviated "UAA") with the class of 2023 and during the five year program, I did code as exercise in the different assignments of the career.
+I studied my degree in Engineer in Intelligent Computing (in spanish, "Ingeniería en Computación Inteligente", or abbreviated "ICI") at the Aguascalientes Autonomous University (in spanish, "Universidad Autónoma de Aguascalientes", or abbreviated "UAA") with the class of 2023 and during the five year program, I did code as exercise in the different assignments of the career.
 
 In this repository I combined all of the code done while I studied sorted by subject in the top folders, but also there's presented the subjects in the following table of contents.
 
