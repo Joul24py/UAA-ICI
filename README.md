@@ -101,4 +101,4 @@ The following table shows all of the subjects by semester that I took during my 
 
 ## Other Graduation Requirements
 
-- [Thesis](36-Thesis/README.md)
+- [Thesis](36-Thesis/)
