@@ -1,5 +1,18 @@
 # UAA-ICI-Thesis
-Undergraduate thesis repository of my career ICI studied at the UAA
+
+> Undergraduate thesis of my career made in the last year of studies involving the subjects Research Seminar 1 and Research Seminar 2 (in spanish, "Seminario de Investigación 1" and "Seminario de Investigación 2" or as I abbreviate it "SI1" and "SI2") which were given in my ninth and tenth semester of my career: Engineer in Intelligent Computing (in spanish, "Ingeniería en Computación Inteligente", or abbreviated "ICI") studied at the Aguascalientes Autonomous University (in spanish, "Universidad Autónoma de Aguascalientes", or abbreviated "UAA").
+
+---
+
+The first course was given by the Professor Francisco Javier Álvarez Rodríguez.
+
+The second course was given by the Professors Francisco Javier Álvarez Rodríguez and Alejandro Padilla Díaz.
+
+The objective was to know the fundamentals of research in order to make a product through the scientific method.
+
+The jury members were the Professors Francisco Javier Álvarez Rodríguez and Alejandro Padilla Díaz.
+
+The thesis directors were the Professors Aurora Torres Soto and María Dolores Torres Soto.
 
 ---
 

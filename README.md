@@ -95,10 +95,10 @@ The following table shows all of the subjects by semester that I took during my 
 
 ## 10th Semester
 
-- [Professional Option 1: Angular SPA Development](34-S10-OP1-ClassExercises/README.md)
+- [Professional Option 1: Angular SPA Development](34-S10-OP1-AppProject/README.md)
 - [Professional Option 2: Machine Learning and Deep Learning](35-S10-OP2-ClassExercises/README.md)
 - Research Seminar 2
 
 ## Other Graduation Requirements
 
-- [Thesis](https://github.com/Joul24py/UAA-ICI-Thesis)
+- [Thesis](36-Thesis/README.md)
