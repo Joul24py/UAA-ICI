@@ -9,94 +9,94 @@ The following table shows all of the subjects by semester that I took during my 
 ## Preparatory Courses
 
 - Math
-- [Programming](01-PC-P-ClassExercises/README.md)
+- [Programming](01-PC-P-ClassExercises/)
 - Practices
 
 ## 1st Semester
 
 - Differential Calculus
 - Advanced Algebra
-- [Computing Languages 1](02-S1-LC1-ClassExercises/README.md)
-- [Fundamentals of Computational Structures](04-S1-FEC-GraphExercise/README.md)
+- [Computing Languages 1](02-S1-LC1-ClassExercises/)
+- [Fundamentals of Computational Structures](04-S1-FEC-GraphExercise/)
 - Basic Accounting
 
 ## 2nd Semester
 
 - Integral Calculus
-- [Computing Languages 2](06-S2-LC2-ClassExercises/README.md)
-- [Computational Structures](07-S2-EC-ClassExercises/README.md)
-- [General Economy](09-S2-EG-FirstUnitProject/README.md)
+- [Computing Languages 2](06-S2-LC2-ClassExercises/)
+- [Computational Structures](07-S2-EC-ClassExercises/)
+- [General Economy](09-S2-EG-FirstUnitProject/)
 - Digital Logic
 
 ## 3rd Semester
 
-- [Advanced Computational Structures](10-S3-ECA-ClassExercises/README.md)
-- [Computing Languages 3](11-S3-LC3-ClassExercises/README.md)
+- [Advanced Computational Structures](10-S3-ECA-ClassExercises/)
+- [Computing Languages 3](11-S3-LC3-ClassExercises/)
 - Basic Writing
-- [Artificial Intelligence](12-S3-IA-ClassExercises/README.md)
+- [Artificial Intelligence](12-S3-IA-ClassExercises/)
 - Linear Algebra
 - Descriptive Statistics and Probability
 
 ## 4th Semester
 
 - Mechanics
-- [Computing Languages 4](13-S4-LC4-ClassExercises/README.md)
-- [Scientific Programming](14-S4-PC-ClassExercises/README.md)
-- [Smart Techniques for Development Processes](15-S4-TIPD-FinalProject/README.md)
-- [Computational Organization](16-S4-OC-ClassExercises/README.md)
+- [Computing Languages 4](13-S4-LC4-ClassExercises/)
+- [Scientific Programming](14-S4-PC-ClassExercises/)
+- [Smart Techniques for Development Processes](15-S4-TIPD-FinalProject/)
+- [Computational Organization](16-S4-OC-ClassExercises/)
 - Analysis and Design
 
 ## 5th Semester
 
 - Databases
-- [Intelligent Optimization](17-S5-OI-ClassExercises/README.md)
-- [Automatons 1](18-S5-A1-FinalProject/README.md)
+- [Intelligent Optimization](17-S5-OI-ClassExercises/)
+- [Automatons 1](18-S5-A1-FinalProject/)
 - Differential Equations
-- [Intelligent Architecture for Hybrid Development](19-S5-AIDH-FinalProject/README.md)
-- [Intelligent Languages](20-S5-LI-ClassExercises/README.md)
+- [Intelligent Architecture for Hybrid Development](19-S5-AIDH-FinalProject/)
+- [Intelligent Languages](20-S5-LI-ClassExercises/)
 
 ## 6th Semester
 
 - Introduction to Operative Systems
 - Theory of Computational Complexity
 - Operations Research
-- [Intelligent Learning](21-S6-AI-ClassExercises/README.md)
+- [Intelligent Learning](21-S6-AI-ClassExercises/)
 - Professional Ethics
 - Entrepeneurs Development
 
 ## 7th Semester
 
 - Networks 1
-- [Automatons 2](22-S7-A2-ClassExercises/README.md)
-- [Metaheuristics 1](23-S7-M1-ClassExercises/README.md)
+- [Automatons 2](22-S7-A2-ClassExercises/)
+- [Metaheuristics 1](23-S7-M1-ClassExercises/)
 - Digital Media Development
-- [Assembly Language](24-S7-LE-ClassExercises/README.md)
+- [Assembly Language](24-S7-LE-ClassExercises/)
 - Image Processing
 - Intelligent Software Evolution 
 
 ## 8th Semester
 
-- [Software and Projects Management](25-S8-ASP-FinalProject/README.md)
-- [Development Methodology for Mobile Devices](26-S8-MDDM-ClassExercises/README.md)
-- [Probabilistic Expert Systems](27-S8-SEP-FinalProject/README.md)
-- [Graphing](28-S8-G-ClassExercises/README.md)
+- [Software and Projects Management](25-S8-ASP-FinalProject/)
+- [Development Methodology for Mobile Devices](26-S8-MDDM-ClassExercises/)
+- [Probabilistic Expert Systems](27-S8-SEP-FinalProject/)
+- [Graphing](28-S8-G-ClassExercises/)
 - Networks 2
-- [Metaheuristics 2](29-S8-M2-ClassExercises/README.md)
+- [Metaheuristics 2](29-S8-M2-ClassExercises/)
 - Legal Informatics
 
 ## 9th Semester
 
-- [Web Services](30-S9-SW-AppProject/README.md)
-- [Data Mining](31-S9-MD-ClassExercises/README.md)
-- [Algorithm Parallelization](32-S9-PA-ClassExercises/README.md)
+- [Web Services](30-S9-SW-AppProject/)
+- [Data Mining](31-S9-MD-ClassExercises/)
+- [Algorithm Parallelization](32-S9-PA-ClassExercises/)
 - Theory of Interactive Systems
-- [Systems Security and Integrity](33-S9-SIS-ClassExercises/README.md)
+- [Systems Security and Integrity](33-S9-SIS-ClassExercises/)
 - Research Seminar 1
 
 ## 10th Semester
 
-- [Professional Option 1: Angular SPA Development](34-S10-OP1-AppProject/README.md)
-- [Professional Option 2: Machine Learning and Deep Learning](35-S10-OP2-ClassExercises/README.md)
+- [Professional Option 1: Angular SPA Development](34-S10-OP1-AppProject/)
+- [Professional Option 2: Machine Learning and Deep Learning](35-S10-OP2-ClassExercises/)
 - Research Seminar 2
 
 ## Other Graduation Requirements
