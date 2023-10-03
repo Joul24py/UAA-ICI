@@ -12,4 +12,4 @@ The exercises were made in Python and Java.
 
 Most of the exercises were made in collaboration with [Andrea Melissa Almeida Ortega](https://github.com/Melissa-AO), [Óscar Alonso Flores Fernández](https://github.com/Dem0n2000), [Dariana Gómez Garza](https://github.com/DariGmz), Fernando Francisco González Arenas and [Hiram Efraín Orocio García](https://github.com/hiram57ef).
 
-Online dataset collected during this project can be found [here](https://www.kaggle.com/datasets/joulespinozasanchez/web-scrapping-twitter-racism)
+Online dataset collected during this project can be found [here](https://www.kaggle.com/datasets/joulespinozasanchez/web-scrapping-twitter-racism).
