@@ -22,10 +22,14 @@ The project consisted in:
 
 These arrays should be generated randomly.
 
-Once the previous requirements were done, the programa has to present the user a menu with the following options:
+Once the previous requirements were done, the program has to present the user a menu with the following options:
 1. Show all users with all fields.
 2. Search for a user giving as a parameter the worker name or the worker key.
 3. Sort alphabetically by key, name or salary (optional).
 4. Add new users.
 5. Delete a user giving as a parameter the worker name or the worker key.
 6. Update the key, name or salary of a worker.
+
+---
+
+This project has a personal rework done after finishing my undergraduate studies that can be found here: [The First CRUD](https://github.com/Joul24py/The-First-CRUD)
