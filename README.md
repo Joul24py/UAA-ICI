@@ -4,7 +4,7 @@ I studied my degree in Engineer in Intelligent Computing (in spanish, "Ingenier√
 
 In this repository I combined all of the code done while I studied sorted by subject in the top folders, but also there's presented the subjects in the following table of contents.
 
-Also, there is a programming project that I did where I compile my background as a student in high school and university, which I titled "[My Way](https://joul24py.github.io/)". It includes links to this page as well as notes that I also took during this stage of my life.
+Also, there is a programming project that I did where I compile my background as a student in high school and university, which I titled "[My Way](https://my-way.joulessa.tech/)". It includes links to this page as well as notes that I also took during this stage of my life.
 
 The following table shows all of the subjects by semester that I took during my career. The ones with the link are the ones in which I did code during the subject and that code is in this repository. The ones without link are the ones in which I did not code during the subject.
 
